@@ -5653,7 +5653,7 @@ if(!is_on_dev() && save_key in localStorage || is_on_dev() && (dev_save_key in l
     change_location({location_id: "Village", skip_travel_time: true});
     questManager.startQuest({quest_id: "Lost memory"});
 
-    last_rewarded_export = Date.now() - 1000*60*60*16; //reduces timer by 16 hours, making first reward export appear in 4 hours from starting
+    last_rewarded_export = Date.now() - 1000*60*60*20; //reduces timer by 20 hours, making first reward export appear in 4 hours from starting
 }
 
 
